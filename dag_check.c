@@ -101,9 +101,9 @@ int main() {
 
 	// 检查图是否为DAG
 	if (check_dag(pa, 7)) {
-		printf("This graph is a Directed Acyclic Graph (DCG).\n");
+		printf("This graph is a Directed Cyclic Graph (DCG).\n");
 	} else {
-		printf("This graph is a Directed Cyclic Graph (DAG).\n");
+		printf("This graph is a Directed Acyclic Graph (DAG).\n");
 	}
     point_free_arr(pa, 7);
 
@@ -111,9 +111,9 @@ int main() {
 	 init_dcg_pa(pa, 7);
 	 // 检查图是否为DAG
 	 if (check_dag(pa, 7)) {
-	 	printf("This graph is a Directed Acyclic Graph (DCG).\n");
+	 	printf("This graph is a Directed Cyclic Graph (DCG).\n");
 	 } else {
-	 	printf("This graph is a Directed Cyclic Graph (DAG).\n");
+	 	printf("This graph is a Directed Acyclic Graph (DAG).\n");
 	 }
     point_free_arr(pa, 7);
 
